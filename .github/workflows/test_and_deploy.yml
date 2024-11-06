@@ -6,7 +6,7 @@ on:
     inputs:
       action:
         description: "Que souhaiter exucuter ?"
-        required: false
+        required: true
         default: "deploiment"  
         type: choice
         options:
